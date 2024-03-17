@@ -3,11 +3,13 @@ import { Desciption, Password, ConfigPass } from '../container'
 
 function App() {
   return (
-    <>
-      <Desciption></Desciption>
-      <Password></Password>
-      <ConfigPass></ConfigPass>
-    </>
+    <section className="container">
+      <div>
+        <Desciption></Desciption>
+        <Password></Password>
+        <ConfigPass></ConfigPass>
+      </div>
+    </section>
   )
 }
 

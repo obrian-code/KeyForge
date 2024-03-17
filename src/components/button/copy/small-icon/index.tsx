@@ -1,4 +1,4 @@
 import { FiCopy } from 'react-icons/fi'
-export function SmallIcon() {
+export function ButtonSmallIcon() {
   return <FiCopy></FiCopy>
 }

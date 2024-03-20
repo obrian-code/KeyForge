@@ -3,15 +3,18 @@ import {
   ButtonGenerate,
   InputText,
   ProgressBar
-} from '../../components'
+} from '../../components';
+import './style.css';
 
 export function Password() {
   return (
-    <div>
+    <div className="container-password">
       <InputText></InputText>
-      <ButtonSmallIcon></ButtonSmallIcon>
-      <ButtonGenerate></ButtonGenerate>
-      <ProgressBar></ProgressBar>
+      <div className="container-password-option">
+        <ButtonSmallIcon></ButtonSmallIcon>
+        <ButtonGenerate></ButtonGenerate>
+      </div>
+      {/*   <ProgressBar></ProgressBar> */}
     </div>
-  )
+  );
 }

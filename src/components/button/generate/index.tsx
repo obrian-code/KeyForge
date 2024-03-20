@@ -1,4 +1,4 @@
-import { FiRefreshCcw } from 'react-icons/fi'
+import { FiRefreshCcw } from 'react-icons/fi';
 export function ButtonGenerate() {
-  return <FiRefreshCcw />
+  return <FiRefreshCcw className="icon" />;
 }

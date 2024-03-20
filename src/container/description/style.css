@@ -1,0 +1,22 @@
+.title{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color:var(--silver-gray);
+    line-height:150%;
+}
+
+.description{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    line-break: loose;
+    line-height:190%;
+    text-align: justify;
+    color:var(--white);
+    font-size: .9rem;
+}
+
+.description span{
+ font-weight: bold;
+ color:var(--silver-gray);
+}

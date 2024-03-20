@@ -1,7 +1,12 @@
+
+:root {
+  --tomato: #FF6347; /* Tomato (Principal) */
+  --white: #FFFFFF; /* (Texto) */
+  --reddish-orange:#E6523E; /* (Fondo) */
+  --silver-gray: #ebebee; /* (Resaltado - Acento) */
+/*   --gradient-background: linear-gradient(145deg, #cf4a38, #f65842); */
+}
+
 body{
-    background: tomato;
-/*     display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; */ 
-/*   grid-template-rows: 1fr 1fr 1fr;  */
-/*     height: 100%; */
+    background: var(--reddish-orange);
 }

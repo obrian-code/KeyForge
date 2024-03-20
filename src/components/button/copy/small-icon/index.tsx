@@ -1,4 +1,5 @@
-import { FiCopy } from 'react-icons/fi'
+import { FiCopy } from 'react-icons/fi';
+import './style.css';
 export function ButtonSmallIcon() {
-  return <FiCopy></FiCopy>
+  return <FiCopy className="icon"></FiCopy>;
 }

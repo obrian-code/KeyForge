@@ -1,3 +1,3 @@
 export function ButtonLarge() {
-  return <button>Copiar contraseña</button>
+  return <button>Copiar contraseña</button>;
 }

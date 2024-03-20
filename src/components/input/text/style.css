@@ -1,0 +1,10 @@
+input{
+    width: 80%;
+    font-weight: bold;
+    font-size: larger;
+    outline: none;
+    background-color:var(--silver-gray);
+    color:var( --tomato);
+    border: 0;
+}
+

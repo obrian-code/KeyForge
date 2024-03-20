@@ -1,10 +1,10 @@
-import './App.css'
 import { Desciption, Password, ConfigPass } from '../container'
+import './App.css'
 
 function App() {
   return (
     <section className="container">
-      <div>
+      <div className="container-component">
         <Desciption></Desciption>
         <Password></Password>
         <ConfigPass></ConfigPass>

@@ -1,0 +1,7 @@
+.copy {
+  font-size: 1.9rem;
+  color: var(--tomato);
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+

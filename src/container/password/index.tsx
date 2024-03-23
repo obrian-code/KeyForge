@@ -1,8 +1,8 @@
 import {
   ButtonSmallIcon,
   ButtonGenerate,
-  InputText,
-  ProgressBar
+  InputText
+  /*   ProgressBar */
 } from '../../components';
 import './style.css';
 

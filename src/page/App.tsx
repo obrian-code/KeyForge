@@ -1,5 +1,5 @@
-import { Desciption, Password, ConfigPass } from '../container'
-import './App.css'
+import { Desciption, Password, ConfigPass } from '../container';
+import './App.css';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <ConfigPass></ConfigPass>
       </div>
     </section>
-  )
+  );
 }
 
-export default App
+export default App;

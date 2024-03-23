@@ -1,26 +1,34 @@
-export function ChatacterOptinos() {
-  const labels = [
-    {
-      title: "Fácil de decir",
-      tooltip: "Evite números y caracteres especiales",
-    },
-    {
-      title: "Fácil de leer",
-      tooltip: "Evite caracteres ambiguos como l, 1, O y 0 ",
-    },
-    {
-      title: "Todos los caracteres",
-      tooltip: "Cualquier combinación de caracteres como !, 7, h, K y l1",
-    },
-  ];
+import { labels, options } from '../../../helpers/radios';
+import { useState } from 'react';
+
+export function ChatacterOptions() {
+  const [selectedOption, setSelectedOption] = useState('lowercase,uppercase');
+
+  const handleRadioClick = (e: { target: { value: string | number } }) => {
+    setSelectedOption(options[e.target.value]);
+  };
+  console.log(selectedOption);
 
   /**
    * radio debe ser redeondo
    */
   return (
     <div>
-      <input type="radio"></input>
-      <span className="info"></span>
+      {labels.map((label, index) => (
+        <div key={index}>
+          <input
+            type="radio"
+            id={`option${index}`}
+            name="characterOption"
+            value={label.name}
+            onChange={handleRadioClick}
+            defaultChecked={index === 0}
+          />
+          <label htmlFor={`option${index}`} title={label.tooltip}>
+            {label.title}
+          </label>
+        </div>
+      ))}
     </div>
   );
 }
